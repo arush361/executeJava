@@ -1,0 +1,30 @@
+{
+  "name": "runjava",
+  "version": "0.1.1",
+  "description": "A command line tool to compile a java source file and run it.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arush361/executeJava.git"
+  },
+  "preferGlobal": true,
+  "bin": {
+    "runjava": "index.js"
+  },
+  "keywords": [
+    "shell",
+    "spawn",
+    "process",
+    "java",
+    "javac",
+    "command",
+    "cmd"
+  ],
+  "author": "ARush361",
+  "license": "ISC",
+  "dependencies": {
+    "yargs": "^3.29.0"
+  }
+}
